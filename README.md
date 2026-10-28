@@ -3,7 +3,7 @@ Mamba Hawkes Process for Limit Order Book Simulation
 
 Using LOBSTER data (https://lobsterdata.com/home), the MHP can simulate order book events. 
 To run the training & simulation, add the orderbook and message csv files to the same folder as the python script. 
-Run the following (changing the device and tickers when necessary):
+Run the following in command line (changing the device and tickers when necessary):
 
 for T in AAPL AMZN GOOG INTC MSFT; do
   python mhp_lob.py \
