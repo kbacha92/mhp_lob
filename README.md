@@ -12,6 +12,6 @@ for T in AAPL AMZN GOOG INTC MSFT; do
       --max-events 0 --epochs 20 \
       --seq-len 128 --stride 16 --batch-size 64 \
       --time-pred intensity --simulate 5000 --n-sims 200 \
-      --device mps --out mhp_v5_${T}_e20_bt_sz
+      --device mps --out mhp_v5_${T}_e20_bt_sz  
 done
 
